@@ -10,28 +10,34 @@ gsap.registerPlugin(ScrollTrigger);
 
 const signals = [
   {
-    date: "60 Days",
-    title: "Fashion Brand — Cairo",
-    note: "From 0 to 104K EGP in sales",
+    date: "31 Days",
+    title: "Fitstock Brand — Cairo",
+    note: "E£106,081 Total Sales (+12K%) & 103 Orders",
     image: "/result-1.jpg",
   },
   {
-    date: "90 Days",
-    title: "Clothing Brand — KSA",
-    note: "+358% increase in monthly sales",
-    image: "",
+    date: "Maximum",
+    title: "E-Commerce Scale — High Volume",
+    note: "403 Website Purchases | EGP 59.72 Cost per Purchase",
+    image: "/result-2.jpg",
   },
   {
-    date: "45 Days",
-    title: "E-Commerce Store",
-    note: "+400% increase in orders after creative overhaul",
-    image: "",
+    date: "Maximum",
+    title: "E-Commerce Campaign — Targeted Growth",
+    note: "125 Website Purchases | EGP 49.12 Cost per Purchase",
+    image: "/result-3.jpg",
   },
   {
-    date: "30 Days",
-    title: "New Brand Launch",
-    note: "Store live + first 50 orders in first month",
-    image: "",
+    date: "1 Day Launch",
+    title: "Daily Peak — Flash Sale",
+    note: "E£30,019 Total Sales (+67%) & 7% Conversion Rate in 1 Day",
+    image: "/result-4.jpg",
+  },
+  {
+    date: "Maximum",
+    title: "Optimization Campaign — Cost Efficiency",
+    note: "184 Website Purchases | EGP 50.28 Cost per Purchase (Budget: EGP 500/day)",
+    image: "/result-5.jpg",
   },
 ];
 

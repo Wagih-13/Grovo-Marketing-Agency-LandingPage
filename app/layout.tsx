@@ -34,15 +34,15 @@ export const metadata: Metadata = {
         media: "(prefers-color-scheme: light)",
       },
       {
-        url: "//grovoIcon.jpg",
+        url: "/grovoIcon.jpg",
         media: "(prefers-color-scheme: dark)",
       },
       {
-        url: "//grovoIcon.jpg",
+        url: "/grovoIcon.jpg",
         type: "image/svg+xml",
       },
     ],
-    apple: "//grovoIcon.jpg",
+    apple: "/grovoIcon.jpg",
   },
 };
 

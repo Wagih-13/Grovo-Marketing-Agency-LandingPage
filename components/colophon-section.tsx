@@ -90,7 +90,10 @@ export function ColophonSection() {
 
   if (screen === "cta") {
     return (
-      <section className="relative py-32 px-6 md:px-12 flex items-center justify-center min-h-screen">
+      <section
+        id="contact"
+        className="relative py-32 px-6 md:px-12 flex items-center justify-center min-h-screen"
+      >
         <div className="w-full max-w-md text-center">
           <div
             style={{

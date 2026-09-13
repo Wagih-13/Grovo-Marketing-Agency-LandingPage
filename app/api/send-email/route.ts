@@ -9,8 +9,17 @@ export async function POST(request: NextRequest) {
   try {
     const body = await request.json();
 
-    const { followers, sales, budget, problem, name, brand, phone, email } =
-      body;
+    const {
+      followers,
+      sales,
+      budget,
+      problem,
+      name,
+      brand,
+      phone,
+      email,
+      instagram,
+    } = body;
 
     // Validate environment variables
 
@@ -40,6 +49,7 @@ export async function POST(request: NextRequest) {
       <p><strong>Brand Name:</strong> ${brand}</p>
       <p><strong>WhatsApp Number:</strong> ${phone}</p>
       <p><strong>Email:</strong> ${email}</p>
+      <p><strong>Instagram Page:</strong> ${instagram ? `<a href="${instagram}" target="_blank">${instagram}</a>` : "Not provided"}</p>
       
       <hr />
       
